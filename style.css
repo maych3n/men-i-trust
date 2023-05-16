@@ -1,0 +1,102 @@
+/* .item1 { grid-area: men; }
+.item2 { grid-area: space; }
+.item3 { grid-area: europe; }
+.item4 { grid-area: i; }
+.item5 { grid-area: date; }
+.item6 { grid-area: trust; }
+.item7 { grid-area: space2; }
+.item8 { grid-area: locations; }
+
+
+body{
+    margin:0;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'men men men space space space'
+    'europe europe europe i date date date'
+    'trust trust trust trust trust trust'
+    'space2 space2 locations locations locations locations';
+  gap: 3px;
+  background-color: black;
+  padding: 0px;
+}
+ */
+ body{
+
+    background: radial-gradient(circle, white,#84C2C6 );
+ }
+
+ .men{
+    font-size: 225pt;
+    font-family: Helvetica, sans-serif;
+    font-weight: 700;
+    margin-bottom: 0;
+ }
+
+ .europe{
+    font-family: 'Poppins', sans-serif;
+    font-size: 100pt;
+    line-height: 1;
+    margin-top: -50px;
+    font-weight: 500;
+    letter-spacing: -7pt;
+ 
+ }
+ .i{
+    font-size: 225pt;
+    font-family: Helvetica, sans-serif;
+    font-weight: 700;
+    margin-top: -275px;
+margin-left: 585px;
+    /* position: fixed; */
+
+ }
+
+ .date{
+    font-family: 'Poppins', sans-serif;
+    font-size: 100pt;
+    line-height: 1;
+    margin-top: -50px;
+    font-weight: 500;
+    letter-spacing: -7pt;
+    /* position: fixed; */
+    margin-top: -192px;
+    margin-left: 680px;
+ }
+ .trust{
+    font-size: 225pt;
+    font-family: Helvetica, sans-serif;
+    font-weight: 700;
+    margin-top: -20px;
+margin-left: 182px;
+
+
+ }
+ .twenty{
+    font-family: Helvetica, sans-serif; 
+    font-weight: 700;
+    font-size: 14pt;
+    margin-left: 390px;
+    margin-top: -100px;
+}
+ .et{
+    font-family: Helvetica, sans-serif; 
+    font-weight: 700;
+    font-size: 14pt;
+    margin-left: 327px;
+}
+.twenty, .et{
+    display: inline;
+}
+.locations{
+    font-family: Helvetica, sans-serif; 
+    font-weight: 700;
+    font-size: 14pt;
+    margin-left: 390px;
+    margin-top: 20px;
+    margin-bottom: 100px;
+
+}
